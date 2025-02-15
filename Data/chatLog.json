@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "What services does Wattmonk offer?"
+    },
+    {
+        "role": "assistant",
+        "content": "Wattmonk is a leading solar design and engineering company that offers a range of services to support the solar industry. Some of the key services offered by Wattmonk include:\n\n1. **Solar Design**: Wattmonk provides comprehensive solar design services, including 2D and 3D designs, electrical and structural designs, and permit plans.\n\n2. **Engineering**: Their engineering services cover feasibility studies, energy yield assessments, and detailed engineering designs for solar projects.\n\n3. **Project Development**: Wattmonk assists in project development, including site assessment, project conceptualization, and project financing.\n\n4. **Construction Support**: They provide construction support services, including quality assurance, quality control, and project management.\n\n5. **O&M Services**: Wattmonk offers operation and maintenance services to ensure optimal performance of solar power plants.\n\nWattmonk's services are designed to support solar project developers, EPC companies, and investors throughout the project lifecycle, from concept to commissioning.\n\nWould you like to know more about a specific service or how Wattmonk compares to other solar service providers?"
+    }
+]
