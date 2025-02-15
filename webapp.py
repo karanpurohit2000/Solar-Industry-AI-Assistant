@@ -20,7 +20,7 @@ faq_questions = [
     "How long does it take to get a solar permit?"
 ]
 
-selected_question = st.selectbox("Frequently Asked Questions:", ["Select a question"] + faq_questions)
+selected_question = st.selectbox(" 📌Frequently Asked Questions:", ["Select a question"] + faq_questions)
 
 # User input text box
 user_input = st.text_input("Your Question:", value=selected_question if selected_question != "Select a question" else "")
