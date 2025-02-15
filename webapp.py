@@ -20,10 +20,10 @@ faq_questions = [
     "How long does it take to get a solar permit?"
 ]
 
-selected_question = st.selectbox("📌 Frequently Asked Questions:", ["Select a question"] + faq_questions)
+selected_question = st.selectbox("Frequently Asked Questions:", ["Select a question"] + faq_questions)
 
 # User input text box
-user_input = st.text_input(" Your Question:", value=selected_question if selected_question != "Select a question" else "")
+user_input = st.text_input("Your Question:", value=selected_question if selected_question != "Select a question" else "")
 
 # Button layout: "Ask" and "Clear Chat"
 col1, col2 = st.columns([0.7, 0.3])
@@ -40,8 +40,8 @@ if ask_button:
         response = Chatbot(user_input)
 
         # Save chat history (latest message at the TOP)
-        st.session_state.chat_history.insert(0, (" You:", user_input))
-        st.session_state.chat_history.insert(0, (" AI:", response))
+        st.session_state.chat_history.insert(0, ("You:", user_input))
+        st.session_state.chat_history.insert(0, ("AI:", response))
 
 # Handle "Clear Chat" button
 if clear_button:
