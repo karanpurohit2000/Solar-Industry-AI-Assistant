@@ -1,0 +1,4 @@
+groq
+googlesearch-python
+cohere
+python-dotenv
